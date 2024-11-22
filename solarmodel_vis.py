@@ -73,7 +73,7 @@ def create_star_image(space, star):
 
 
 def create_planet_image(space, planet):
-    " x = scale_x(star.x)
+    x = scale_x(star.x)
     y = scale_y(planet.y)
     r = planet.R
     planet.image = space.create_oval([x - r, y - r], [x + r, y + r], fill=planet.color)
