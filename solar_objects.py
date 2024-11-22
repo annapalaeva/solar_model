@@ -12,8 +12,8 @@ class Star:
         self.Vy = Vy
         self.Fx = Fx
         self.Fy = Fy
-        self.r = 5
-        self.color = "red"
+        self.r = r
+        self.color = color
         self.image = image
 
 
@@ -29,6 +29,6 @@ class Planet:
         self.Vy = Vy
         self.Fx = Fx
         self.Fy = Fy
-        self.r = 5
-        self.color = "green"
+        self.r = r
+        self.color = color
         self.image = image
